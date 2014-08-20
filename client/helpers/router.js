@@ -96,6 +96,21 @@ Router.map(function() {
       }
     }
   });
+
+  this.route('generic', {
+    path: '/generic',
+    template: 'generic',
+    waitOn: function () {
+  
+      return Meteor.subscribe('gamesplayed');
+    },
+    data: function () {
+      return {
+        main1314: Main1314.find()
+      }
+    }
+  });
+ 
   this.route('deployment', {
     path: '/deployment',
     template: 'deployment',
@@ -110,16 +125,16 @@ Router.map(function() {
     }
   });
 
-  this.route('generic', {
-    path: '/generic',
-    template: 'generic',
+   this.route('homeroad', {
+    path: '/homeroad',
+    template: 'homeroad',
     waitOn: function () {
   
-      return Meteor.subscribe('main1314');
+      return Meteor.subscribe('homeroad1314');
     },
     data: function () {
       return {
-        main1314: Main1314.find()
+        homeroad1314: Homeroad1314.find()
       }
     }
   });
