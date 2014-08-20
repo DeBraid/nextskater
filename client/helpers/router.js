@@ -84,6 +84,10 @@ Router.map(function() {
 
 
   this.route('contact');
+  this.route('leaderboard');
+  this.route('leaderboard');
+  this.route('glossary');
+  this.route('teams');
 
   this.route('login');
 
