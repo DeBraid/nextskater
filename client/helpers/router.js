@@ -69,6 +69,20 @@ Router.map(function() {
     }
   });
 
+  this.route('oniceevents', {
+    path: '/oniceevents',
+    template: 'oniceevents',
+    waitOn: function () {
+  
+      return Meteor.subscribe('mainES1314');
+    },
+    data: function () {
+      return {
+        mainES1314: MainES1314.find()
+      }
+    }
+  });
+
   this.route('possession', {
     path: '/possession',
     template: 'possession',
