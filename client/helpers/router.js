@@ -69,6 +69,34 @@ Router.map(function() {
     }
   });
 
+  this.route('possession', {
+    path: '/possession',
+    template: 'possession',
+    waitOn: function () {
+  
+      return Meteor.subscribe('mainES1314');
+    },
+    data: function () {
+      return {
+        mainES1314: MainES1314.find()
+      }
+    }
+  });
+
+  this.route('generic', {
+    path: '/generic',
+    template: 'generic',
+    waitOn: function () {
+  
+      return Meteor.subscribe('main1314');
+    },
+    data: function () {
+      return {
+        main1314: Main1314.find()
+      }
+    }
+  });
+
 
   this.route('item', {
     path: '/items/:_id',
@@ -85,9 +113,9 @@ Router.map(function() {
 
   this.route('contact');
   this.route('leaderboard');
-  this.route('leaderboard');
+  this.route('dashboard');
   this.route('glossary');
-  this.route('generic');
+
   this.route('teams');
 
   this.route('login');

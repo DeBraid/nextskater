@@ -1,0 +1,90 @@
+ES Dashboard
+
+  Player  Pos.  Team(s) GP  G A P TOI/60  S/60  Sh% PenD  CF% CF% rel GF% GF% rel Sh% Sv% PDO ZS% ZS% rel EVTOI%  PPTOI%  SHTOI%  QoC TOI%  QoT TOI%
+
+  Standard
+
+    Player  Pos.  Team(s) GP  G A P A1  A2  SP  P1  TOI S Sh% MS  BS  CF  FF  PSR FOW FOL FO% PenDr PenT  PenD  ShB HitF  HitA  HitD  Tk  Gv
+
+  Possession
+    Player  Pos.  Team(s) GP  TOI CF  CA  CF% CF% rel FF  FA  FF% FF% rel SF  SA  SF% SF% rel GF  GA  GF% GF% rel Sh% Sh% rel TMSh% Sv% Sv% rel PDO PDO rel
+
+    On-Ice Events
+
+      Player  Pos.  Team(s) GP  TOI GShr  AShr  PShr  SShr  CShr  FShr  SFDist  SFDist rel  SADist  SADist rel  FOW FOL FO% IceDr IceT  IceDr%
+
+Deployment
+
+  Player  Pos.  Team(s) GP  TOI%  ZS  OZS%  NZS%  DZS%  ZS% ZS% rel OZShr NZShr DZShr
+
+QoC 
+    Player  Pos.  Team(s) GP  TOI%  QoC TOI%  QoC TOI% rel  QoC TOI% F  QoC TOI% F rel  QoC TOI% D  QoC TOI% D rel      
+
+QoT 
+  Player  Pos.  Team(s) GP  TOI%  QoT TOI%  QoT TOI% rel  QoT TOI% F  QoT TOI% F rel  QoT TOI% D  QoT TOI% D rel  Fwd 1 TOI%  Fwd 2 TOI%  Fwd 3 TOI%  Def 1 TOI%  Def 2 TOI%
+
+Shooting
+  Player  Pos.  Team(s) GP  G S MS  BS  CF  FF  Sh% CSh%  FSh%  ON% Miss% Blk%  SDist WrtS  SnpS  SlpS  WrtG  SnpG  SlpG  WrtSh%  SnpSh%  SlpSh%
+
+Goalies
+    Player  Pos.  Team(s) GP  TOI Sv% GA/60 SA/60 FA/60 CA/60 GF/60 GA  SA  FA  CA  SADist  G A P PenDr PenT  PenD
+
+
+
+
+
+Leaderboards: 
+
+Best possession teams
+Team  5v5 close FF%
+
+Best scoring teams
+Team  5v5 close GF%
+
+Most fortunate teams
+Team  5v5 PDO
+
+Top outshooting teams
+Team  SD/60
+
+Best possession players
+Player  5v5 CF%
+
+Best even strength scorers
+Player  EV P/60
+
+Best even strength passers
+Player  EV SP/60
+
+Toughest competition
+Player  QoC TOI%
+
+Most fortunate players
+Player  5v5 PDO
+
+Least sheltered players
+Player  EV ZS%
+
+Most used players
+Player  TOI%
+
+Top PP specialists
+Player  PPTOI%
+
+Top SH specialists
+Player  SHTOI%
+
+Best shooting players
+Player  Sh%
+
+Best penalty drawing players
+Player  PenD
+
+Best 5v5 goalies
+Goalie  5v5 Sv%
+
+
+TEAM TOTALS (Gross)
+  GP  TOI GF  GA  GF% CF  CA  CF% FF  FA  FF% SF  SA  SF% Sh% Sv% PDO
+TEAM TOTALS (RATE)
+  Team  GP  TOI GF/60 GA/60 GD/60 CF/60 CA/60 CD/60 FF/60 FA/60 FD/60 SF/60 SA/60 SD/60 Sh% Sv% PDO
