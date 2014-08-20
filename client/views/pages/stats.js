@@ -4,7 +4,7 @@
 //     }
 // });
 
-Template.stats.settings = function () {
+Template.stats.mainsettings = function () {
     return {
         showFilter: true,
         fields: [{
@@ -34,6 +34,15 @@ Template.stats.settings = function () {
                 }, {
                     key: 'Sh%',
                     label: 'Sh%'
+                }, {
+                    key: 'GVT/60',
+                    label: 'GVT/60'
+                }, {
+                    key: 'Cap Cost',
+                    label: 'Cap Cost'
+                }, {
+                    key: 'PS/60',
+                    label: 'PS/60'
                 }
             ]
     };

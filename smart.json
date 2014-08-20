@@ -7,6 +7,7 @@
       "commit": "05415a8891ea87a00fb1e2388585f2ca5a38e0da"
     },
     "reactive-table": {},
-    "bootstrap3-less": {}
+    "bootstrap3-less": {},
+    "bootstrap-3": {}
   }
 }

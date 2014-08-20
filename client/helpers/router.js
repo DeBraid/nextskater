@@ -62,6 +62,18 @@ Router.map(function() {
     }
   });
 
+  // this.route('advanced', {
+  //   path: '/advanced',
+  //   waitOn: function () {
+  //     return Meteor.subscribe('main1314');
+  //   },
+  //   data: function () {
+  //     return {
+  //       main1314: Main1314.find()
+  //     }
+  //   }
+  // });
+
 
   this.route('item', {
     path: '/items/:_id',

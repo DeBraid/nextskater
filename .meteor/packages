@@ -9,6 +9,5 @@ accounts-base
 accounts-password
 accounts-ui
 reactive-table
-less
 bootstrap3-less
-bootstrap
+bootstrap-3

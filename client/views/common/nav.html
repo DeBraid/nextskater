@@ -1,0 +1,56 @@
+<template name="nav">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{pathFor 'homepage'}}">
+      Next Skater</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+        {{> basicStatsMenu}}
+        <!-- {{> advancedStatsMenu}} -->
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a id="contact-button"  href="{{pathFor 'contact'}}">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</template>
+
+<template name="basicStatsMenu">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic Stats<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="{{pathFor 'stats'}}">Basic</a></li>
+      <!-- <li><a href="{{pathFor 'advanced'}}">Advanced</a></li> -->
+    </ul>
+  </li> <!-- end dropdown 1 -->
+</template>
+
+<template name="advancedStatsMenu">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Qualatex® Latex<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="{{pathFor 'roundballoons'}}">One-Colour Print</a></li>
+      <li><a href="{{pathFor 'heartballoons'}}">Heart Balloons</a></li>
+      <li><a href="">Super Agates</a></li>
+      <li><a href="">Globe Balloons</a></li>
+      <li><a href="">Multi-Colour Print</a></li>
+      <li><a href="{{pathFor 'quicklinkround'}}">QuickLink One-Colour</a></li>
+      <li><a href="{{pathFor 'adwrap' }}">AdWrap® Balloons</a></li> 
+      <li><a href="{{pathFor 'adwave' }}">AdWave® Balloons</a></li>
+      <li><a href="{{pathFor 'giantlatexballoons' }}">Giant Balloons & Accessories</a></li>
+    </ul>
+  </li> <!-- end dropdown 1 -->
+</template>

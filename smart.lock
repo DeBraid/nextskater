@@ -7,7 +7,8 @@
         "tag": "v0.8.2"
       },
       "reactive-table": {},
-      "bootstrap3-less": {}
+      "bootstrap3-less": {},
+      "bootstrap-3": {}
     },
     "packages": {
       "iron-router": {
@@ -24,6 +25,11 @@
         "git": "https://github.com/simison/bootstrap3-less",
         "tag": "v0.2.1",
         "commit": "dc94a51ed00d7de6d6f2b6d65107a876d849ad61"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.2.0-1",
+        "commit": "17a63902fc6cf1096c5289d963c66cf28b474727"
       },
       "iron-layout": {
         "git": "https://github.com/EventedMind/iron-layout.git",
