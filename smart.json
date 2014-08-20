@@ -8,6 +8,7 @@
     },
     "reactive-table": {},
     "bootstrap-3": {},
-    "font-awesome": {}
+    "font-awesome": {},
+    "GAnalytics": {}
   }
 }

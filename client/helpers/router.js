@@ -15,7 +15,6 @@ Router.configure({
 });
 
 // Filters
-
 var filters = {
 
   myFilter: function () {
@@ -38,21 +37,16 @@ Router.onBeforeAction(filters.myFilter, {only: ['items']});
 Router.map(function() {
 
   // Items
+  // Pages
 
-  this.route('items', {
-    waitOn: function () {
-      return Meteor.subscribe('allItems');
-    },
-    data: function () {
-      return {
-        items: Items.find()
-      }
-    }
+  this.route('homepage', {
+    path: '/'
   });
 
   this.route('stats', {
     path: '/stats',
     waitOn: function () {
+      GAnalytics.pageview('/stats');
       return Meteor.subscribe('main1314');
     },
     data: function () {
@@ -62,10 +56,11 @@ Router.map(function() {
     }
   });
 
-  this.route('full', {
+  this.route('fullblast', {
     path: '/full',
     template: 'fullblast',
     waitOn: function () {
+      GAnalytics.pageview('/fullblast');
       return Meteor.subscribe('mainES1314');
     },
     data: function () {
@@ -89,15 +84,7 @@ Router.map(function() {
   });
 
 
-  // Pages
-
-  this.route('homepage', {
-    path: '/'
-  });
-
   this.route('contact');
-
-  // Users
 
   this.route('login');
 
