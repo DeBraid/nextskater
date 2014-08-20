@@ -1,3 +1,9 @@
+// Template.stats.helpers({
+//     data: function () {
+        
+//     }
+// });
+
 Template.stats.settings = function () {
     return {
         showFilter: true,

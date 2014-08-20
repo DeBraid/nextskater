@@ -8,5 +8,7 @@ iron-router
 accounts-base
 accounts-password
 accounts-ui
-bootstrap3-less
 reactive-table
+less
+bootstrap3-less
+bootstrap
