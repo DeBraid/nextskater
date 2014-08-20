@@ -96,6 +96,19 @@ Router.map(function() {
       }
     }
   });
+  this.route('deployment', {
+    path: '/deployment',
+    template: 'deployment',
+    waitOn: function () {
+  
+      return Meteor.subscribe('deployment');
+    },
+    data: function () {
+      return {
+        main1314: Main1314.find()
+      }
+    }
+  });
 
   this.route('generic', {
     path: '/generic',

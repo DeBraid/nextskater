@@ -45,6 +45,6 @@ Template.oniceevents.settings = function () {
                   label: 'IceT'},
                   {key: 'IceDr%',
                   label: 'IceDr%'}
-]
+            ]
     };
 };
