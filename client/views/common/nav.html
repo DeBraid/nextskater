@@ -11,6 +11,8 @@
       </button>
       <a class="navbar-brand" href="{{pathFor 'homepage'}}">
       Next Skater</a>
+      <a class="" href="{{pathFor 'stats'}}">
+      Stats</a>
     </div>
 
     <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -30,27 +32,10 @@
 
 <template name="basicStatsMenu">
   <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic Stats<span class="caret"></span></a>
+    <a href="{{pathFor 'stats'}}" class="dropdown-toggle" data-toggle="dropdown">Stats<span class="caret"></span></a>
     <ul class="dropdown-menu" role="menu">
       <li><a href="{{pathFor 'stats'}}">Basic</a></li>
       <!-- <li><a href="{{pathFor 'advanced'}}">Advanced</a></li> -->
-    </ul>
-  </li> <!-- end dropdown 1 -->
-</template>
-
-<template name="advancedStatsMenu">
-  <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Qualatex® Latex<span class="caret"></span></a>
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="{{pathFor 'roundballoons'}}">One-Colour Print</a></li>
-      <li><a href="{{pathFor 'heartballoons'}}">Heart Balloons</a></li>
-      <li><a href="">Super Agates</a></li>
-      <li><a href="">Globe Balloons</a></li>
-      <li><a href="">Multi-Colour Print</a></li>
-      <li><a href="{{pathFor 'quicklinkround'}}">QuickLink One-Colour</a></li>
-      <li><a href="{{pathFor 'adwrap' }}">AdWrap® Balloons</a></li> 
-      <li><a href="{{pathFor 'adwave' }}">AdWave® Balloons</a></li>
-      <li><a href="{{pathFor 'giantlatexballoons' }}">Giant Balloons & Accessories</a></li>
     </ul>
   </li> <!-- end dropdown 1 -->
 </template>

@@ -14,6 +14,10 @@ Meteor.publish('main1314', function() {
   return Main1314.find({}, {sort: {PTS: -1}, limit: 100});
 });
 
+Meteor.publish('mainES1314', function() {
+  return MainES1314.find({}, {sort: {PTS: -1}, limit: 100});
+});
+
 // Publish a single item
 
 // Meteor.publish('singleItem', function(id) {

@@ -62,17 +62,18 @@ Router.map(function() {
     }
   });
 
-  // this.route('advanced', {
-  //   path: '/advanced',
-  //   waitOn: function () {
-  //     return Meteor.subscribe('main1314');
-  //   },
-  //   data: function () {
-  //     return {
-  //       main1314: Main1314.find()
-  //     }
-  //   }
-  // });
+  this.route('full', {
+    path: '/full',
+    template: 'fullblast',
+    waitOn: function () {
+      return Meteor.subscribe('mainES1314');
+    },
+    data: function () {
+      return {
+        mainES1314: MainES1314.find()
+      }
+    }
+  });
 
 
   this.route('item', {
@@ -94,7 +95,7 @@ Router.map(function() {
     path: '/'
   });
 
-  this.route('content');
+  this.route('contact');
 
   // Users
 
