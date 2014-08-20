@@ -1,0 +1,344 @@
+abv,desc
+#,Jersey Number
+%Tm,% of Teams faceoffs
++/-,Plus/Minus
+1G,First goals of the game
+45A1,Primary assists while playing 4-on-5
+45A2,Secondary assists while playing 4-on-5
+45G,Goals scored while playing 4-on-5
+45TOF/G,"4-on-5 Time that target player did NOT play, per game"
+45TOI/G,"4-on-5 ice time per game, used through SH section"
+54A1,Primary assists while playing 5-on-4
+54A2,Secondary assists while playing 5-on-4
+54G,Goals scored while playing 5-on-4
+54TOF/G,"5-on-4 Time that target player did NOT play, per game"
+54TOI/G,"4-on-5 ice time per game, used throughout PP section"
+55A1,Primary assists while playing 5-on-5
+55A2,Secondary assists while playing 5-on-5
+55G,Goals scored while playing 5-on-5
+55TOF/G,"5-on-5 Time that target player did NOT play, per game"
+55TOI/G,"4-on-5 ice time per game, used throughout ES section"
+A,Assists
+Adj Corsi,"Corsi adjusted (by Michael Parkatti) to account for competition, teammates and zone starts"
+Age,"Age, as per January 1st 2013"
+B/60,Shots blocked per 60 minutes
+Birth City,
+BkS,Shots Blocked
+Blkd,Shots taken that were blocked
+Bonuses,
+BTN Code,ID on Behind the Net where more great stats can be found
+Cap Cost,Cost of player against salary cap (over 82 games)
+CGCA,"Attempted shots against in close-game, even-strength situations"
+CGCF,"Attempted shots for in close-game, even-strength situations"
+CGCF%-Rel,"Attempted shot percentage relative to teammates in close-game, even-strength situations"
+CGFA,"Attempted shots against (minus blocks) in close-game, even-strength situations"
+CGFF,"Attempted shots for (minus blocks) in close-game, even-strength situations"
+CGFF%-Rel,"Attempted shot percentage (minus blocks) relative to teammates in close-game, even-strength situations"
+CGGA,"Goals against in close-game, even-strength situations"
+CGGF,"Goals scored in close-game, even-strength situations"
+CGGF%-Rel,"Goal percentage relative to teammates in close-game, even-strength situations"
+CGSA,"Shots against in close-game, even-strength situations"
+CGSF,"Shots for in close-game, even-strength situations"
+CGSF%-Rel,"Shot percentage relative to teammates in close-game, even-strength situations"
+CGTOI,"Ice time in close-game, even-strength situations"
+Corsi,"Team's even-strength attempted shots while player was on the ice, per 60 minutes"
+CoSH%,Corsi shooting percentage (shooting percentage of all attempted shots)
+CQoC ,"Average Corsi of one's opponents, at even-strength"
+CQoT ,"Average Corsi of one's on-ice teammates, at even-strength"
+Ctry,Country
+D1TOI,Percentage of time he played with Def1
+D2TOI,Percentage of time he played with Def2
+Def1,Defenseman he most frequently played with
+Def2,Defensemen he 2nd most frequently played with
+DGVT,Defensive GVT
+DIA,"Do-it-all index, on a scale of 1-to-10"
+Dist,Average distance of shots taken
+DIT,Defensive Ice-Time (part of GVT)
+DOB,Date of Birth
+DPS,Defensive Point Shares
+End Team,Team at the conclusion of the season
+ENG,Empty-Net goals.  Brett Hull loves these
+ES%,Percentage of available even-strength ice-time assigned to this player
+ESA,Even-strength Assists
+ESA1,Primary Even-strength Assists
+ESA2,Secondary Even-strength assists
+ESBlk,Shots blocked at even-strength
+ESBlkd,Even-strength shots taken that were blocked
+ESCoSH%,Shooting percentage at even-strength based on all attempted shots
+ESDZ%,Percentage of even-strength shifts started in the defensive zone
+ESDZF,Number of even-strength shifts ended in the defensive zone
+ESDZFOL,Number of even-strength shifts that begin with a defensive zone faceoff loss
+ESDZFOW,Number of even-strength shifts that begin with a defensive zone faceoff win
+ESFO%,Even-strength Faceoff Winning Percentage
+ESFOL,Even-strength Faceoffs Lost
+ESFOW,Even-strength Faceoffs Won
+ESG,Even-strength Goals
+ESHitA,Hits taken at even-strength
+ESHitF,Hits thrown at even-strength
+ESIAP,Percentage of all even-strength goals scored on the ice for which the player got an assist
+ESIGP,Percentage of all even-strength goals scored on the ice that the player scored himself
+ESIPP,Percentage of all even-strength goals scored on the ice on which the player got a point
+ESMiss,Even-strength shots taken that missed
+ESNZ%,Percentage of even-strength shifts started in the neutral zone
+ESNZF,Number of even-strength shifts ended in the neutral zone
+ESNZFOL,Number of even-strength shifts that begin with a neutral zone faceoff loss
+ESNZFOW,Number of even-strength shifts that begin with a neutral zone faceoff win
+ESOISH%,Team even-strength shooting percentage while player was on the ice
+ESOISV%,Team even-strength save percentage while player was on the ice
+ESOZ%,Percentage of even-strength shifts started in the offensive zone
+ESOZF,Number of even-strength shifts ended in the offensive zone
+ESOZFOL,Number of even-strength shifts that begin with an offensive zone faceoff loss
+ESOZFOW,Number of even-strength shifts that begin with an offensive zone faceoff win
+ESP,Even-strength Points
+ESP/60,Even-strength points per 60 minutes
+ESPass,Even-strength passes that resulted in shots (estimate)
+ESPenD,Penalties drawn at even-strength
+ESPenD/60,"Penalties drawn at even-strength, per 60 minutes"
+ESPenT,Penalties taken at even-strength
+ESPenT/60,"Penalties taken at even-strength, per 60 minutes"
+ESPPD,Power Plays Drawn at even-strength
+ESPPD/60,"Power Plays Drawn at even-strength, per 60 minutes"
+ESSh%,Shooting percentage at even strength
+ESShot,Even-strength shots taken
+ESTOI,"Even-strength time on the ice, as per NHL.com"
+ESTOI/G,"Even-strength time on the ice, may differ from 5-on-5 time on ice per game"
+F1TOI,Percentage of time he played with Fwd1
+F2TOI,Percentage of time he played with Fwd2
+F3TOI,Percentage of time he played with Fwd3
+First Name,
+FO%,Faceoff winning percentage
+FOL,Faceoffs Lost
+FOW,Faceoffs Won
+Full,Number of days player counted towards the salary cap
+Fwd1,Forward he most frequently played with
+Fwd2,Forward he 2nd most frequently played with
+Fwd3,Forward he 3rd most frequently played with
+G,Goals 
+G Misc,Game Misconducts
+G/60,Giveaways per 60 minutes
+Ginj,Games Injured
+GP,Games Played
+GvA,Giveaways
+GVS,Goals Versus Salary
+GVT,Goals Versus Threshold
+GVT/60,GVT per 60 minutes played
+GVT/G,GVT per game played
+GWG,Game-winning goals
+h+/-,Plus/minus at home
+hA,Assists at home
+HA/60,Hits taken per 60 minutes
+hESOI/G,Even-strength ice-time per game at home
+HF/60,Hits thrown per 60 minutes
+hFO%,Home Faceoff Winning Percentage
+hFOL,Faceoffs lost at home
+hFOW,Faceoffs won at home
+hG,Goals at home
+hGP,Games Played at home
+HitA,Hits Received
+HitF,Hits Thrown
+hPen,Penalties at home
+hPIM,Penalty minutes at home
+hPPTOI/G,Power play ice-time per game at home
+hSHTOI/G,Short-handed ice-time per game at home
+hSO%,Shooting percentage at home
+hSOG,Shoot-out goals at home
+hSOGDG,Game-deciding shoot-out goals at home
+hSOS,Shoot-outs at home
+HT,Height
+hT-DQoC,Quality of Competition based on average ice-time of opposing defensemen at home
+hT-FQoC,Quality of Competition based on average ice-time of opposing forwards at home
+hT-QoC,Quality of Competition based on average ice-time of one's opponents at home
+hTOI/G,Time on ice per game at home
+IAP,Percentage of all team goals scored on the ice for which the player got an assist
+IGP,Percentage of all team goals scored on the ice that the player scored himself
+Injury,Injuries suffered
+IPP,Percentage of all team goals scored on the ice on which the player got a point
+Last Name,
+LTIR,Days on long-term injured reserve
+M/60,Missed shots per 60 minutes
+Major,Major penalties taken
+Match,Match penalties
+Minor,Minor penalties taken
+Misc,Misconducts
+Miss,Shots that missed the net
+MsS,Missed Shots
+NetPen,Penalties drawn minus taken relative to expectations (position and manpower situation)
+OGIT,Offensive Ice-Time
+OGP,Number of games played with original team(s) (i.e. Not the end team)
+OGVT,Offensive GVT
+OPS,Offensive Point Shares
+OTA,Overtime assists
+OTG,Overtime goals
+OTGP,Overtime games played
+oTmESBA,Team's even-strength blocked shots when player wasn't on the ice
+oTmESBF,Team's even-strength shots blocked when player wasn't on the ice
+oTmESCA/60,"Team's Corsi against when player wasn't on the ice, per 60 minutes"
+oTmESCF/60,"Team's Corsi when player wasn't on the ice, per 60 minutes"
+oTmESGA,Team's even-strength goals against when player wasn't on the ice
+oTmESGA/60,"Team's even-strength goals against when player wasn't on the ice, per 60 minutes"
+oTmESGF,Team's even-strength goals for when player wasn't on the ice
+oTmESGF/60,"Team's even-strength goals for when player wasn't on the ice, per 60 minutes"
+oTmESMA,"Team's even-strength missed shots against, when player wasn't on the ice"
+oTmESMF,"Team's even-strength missed shots, when player wasn't on the ice"
+oTmESSA/60,"Team's even-strength shots against when player wasn't on the ice, per 60 minutes"
+oTmESSF/60,"Team's even-strength shots for when player wasn't on the ice, per 60 minutes"
+oTmESSVA,"Team's even-strength shots that were saved, when player wasn't on the ice"
+oTmESSVF,"Team's even-strength saves, when player wasn't on the ice"
+OZ%,Percentage of shifts started in offensive zone (ignores neutral zone)
+OZRk,"Where a player ranks in lowest offensive zone start % on his team and position, of those who played 20 games"
+Pa/60,Passes (that resulted in shots) per 60 minutes (estimate)
+Passes,Passes that resulted in shots (estimate)
+PDO,Sum of TmSH% and TMSV%.  Tends to 1000
+PIM,Penalties in Minutes
+Pos,"Position(s) played, as per NHL.com, Hockey Reference, Extra Skater (in that order if multiple)"
+PP%,Percentage of all power play time assigned to this player
+PPA,Power play assists
+PPA1,Primary Power Play assists
+PPA2,Secondary Power Play assists
+PPBlk,Shots blocked on the power play (I assume this would be rare)
+PPBlkd,Shots taken on the power play that were blocked
+PPCorsi,Corsi per 60 minutes while on the power play
+PPCoSH%,Shooting percentage on the power play based on all attempted shots
+PPFO%,Power play Faceoff Winning Percentage
+PPFOL,Power Play faceoffs lost
+PPFOW,Power Play faceoffs won
+PPG,Power play goals
+PPGA,5-on-4 Team Goals Against
+PPGF,5-on-4 Team Goals For
+PPHitA,Hits received on the power play 
+PPHitF,Hits thrown on the power play
+PPIAP,Percentage of all power play goals scored on the ice for which the player got an assist
+PPIGP,Percentage of all power play goals scored on the ice that the player scored himself
+PPIPP,Percentage of all power play goals scored on the ice on which the player got a point
+PPMiss,Shots taken on the power play that missed the net
+PPP,Power play points 
+PPP/60,Power play points per 60 minutes
+PPPass,Power Play passes that resulted in shots (estimate)
+PPPenD,Penalties drawn on the power play
+PPPenT,Penalties taken on the power play
+PPQoC,Average Corsi of one's opponents when on the power play
+PPRelC,Corsi per 60 minutes while on the power play relative to when he's not
+PPRQoC,Average Corsi of one's opponents when on the power play relative to when he's note
+PPSH%,Shooting percentage on the power play
+PPShot,Shots taken on the power play
+PPTOI,Power Play time on the ice
+PPTOI/G,"Power Play time on the ice, per game"
+PS,Point Shares
+PS/60,Point Shares per 60 Minutes
+PS/G,Point Shares per Game
+PS%,Success rate on penalty shots
+PSG,Penalty shot goals
+PST,Penalty shots taken
+Pts,Points
+QoCRk,"Where a player ranks in (relative Corsi) Quality of Competition on his team and position, of those who played 20 games"
+r+/-,Plus/minus on the road
+rA,Assists on the road
+RCQoC,Average Relative Corsi of the player's opponents
+RCQoT,"Average Relative Corsi of the player's teammates, while on the ice"
+RelC,Corsi Relative to teammates
+rESTOI/G,Even-strength ice-time per game on the road
+rFO%,Road Faceoff Winning Percentage
+rFOL,Faceoffs lost on the road
+rFOW,Faceoffs won on the road
+rG,Goals on the road
+rGP,Games Played on the road
+Rk,Rookie
+rPen,Penalties on the road
+rPIM,Penalty minutes on the road
+RPM,Relative Plus/Minus (part of GVT)
+rPPTOI/G,Power play ice-time per game on the road
+rSHTOI/G,Short-handed ice-time per game on the road
+rSO%,Shoot-out success rate on the road
+rSOG,Shoot-outs on the road
+rSOGDG,Game-deciding shoot-out goals on the road
+rSOS,Shoot-out goals on the road
+rT-DQoC,Quality of Competition based on average ice-time of opposing defensemen on the road
+rT-FQoC,Quality of Competition based on average ice-time of opposing forwards on the road
+rT-QoC,Quality of Competition based on average ice-time of one's opponents on the road
+rTOI/G,"Time on Ice per game, on the road"
+S,"Shoots (left, right, or N/A for Brian McGrattan)"
+S/P,State/Province
+SGVT,Shoot-out GVT
+Sh,Shots
+Sh/G,Shifts per game
+SH%,Percentage of all short-handed time assigned to this player
+Sh% ,Shooting percentage (goals per shots)
+SHA,Short handed assists
+SHA1,Primary short-handed assists
+SHA2,Secondary short-handed assists
+SHBlk,Shots blocked while killing penalties
+SHBlkd,Shots taken while killing penalties that were blocked
+SHCorsi,"Corsi while killing penalties, per 60 minutes"
+SHCoSH%,"Shooting percentage while killing penalties, based on all shots"
+SHFO%,Shorthanded Faceoff Winning Percentage
+SHFOL,Short handed faceoffs lost
+SHFOW,Short handed faceoffs won
+SHG,Short handed goals
+SHHitA,Hits received while killing penalties
+SHHitF,Hits thrown while killing penalties
+Shifts,
+SHMiss,Shots missed while killing penalties
+SHP,Short-handed points
+SHPass,Short-handed passes that resulted in shots (estimate)
+SHPenD,Penalties drawn while short-handed
+SHPenT,Penalties taken while short-handed
+SHQoC,Average Corsi of one's opponents while killing penalties
+SHRelC,"Corsi while killing penalties, per 60 minutes, relative to when not on the ice"
+SHRQoC,"Average Corsi of one's opponents while killing penalties, relative to when not on the ice"
+SHSh%,Shooting percentage while killing penalties
+SHShot,Shots taken while killing penalties
+SHTOI,Short handed time on the ice
+SHTOI/G,"Short handed time on the ice, per game"
+Slap,Number of slap shots taken
+Snap,Number of snap shots taken
+SO%,Percentage of shoot out attempts that were successful
+SOG,Shoot-out Goals
+SOGDG,Game-deciding shoot-out goals
+SOIR,Injured reserve salary cap
+SOS,Shoot-out Shots
+SPD,"Shooting percentage differential, On-ice"
+T-DQoC,Quality of Competition based on average ice-time of opposing defensemen
+T-DQoT,Quality of Teammates based on average ice-time of one's linemate defensemen
+T-FQoC,Quality of Competition based on average ice-time of opposing forwards
+T-FQoT,Quality of Teammates based on average ice-time of one's linemate forwards
+T-QoC,Quality of Competition based on average ice-time of one's opponents
+T-QoCRk,"Where a player ranks in (TOI-based) Quality of Competition on his team and position, of those who played 20 games"
+T-QoT,Quality of Teammates based on average ice-time of one's linemates
+T/60,Takeaways per 60 minutes
+Teams,Teams for which the player played this year.
+TkA,Takeaways
+TmESBA,Team's even-strength shots that were blocked while player was on the ice
+TmESBF,Team's even-strength blocked shots while player was on the ice
+TmESCA/60,"Team's even-strength Corsi against while player was on the ice, per 60 minutes"
+TmESCF/60,"Team's even-strength Corsi while player was on the ice, per 60 minutes"
+TmESGA,Even-strength goals scored against while player was on the ice
+TmESGA/60,"Even-strength goals scored against while player was on the ice, per 60 minutes"
+TmESGF,Even-strength goals scored while player was on the ice
+TmESGF/60,"Even-strength goals scored while player was on the ice, per 60 minutes"
+TmESMA,"Team's opponent's even-strength missed shots, while player was on the ice"
+TmESMF,"Team's even-strength missed shots, while player was on the ice"
+TmESSA/60,"Team's even-strength shots against while player was on the ice, per 60 minutes"
+TmESSF/60,"Team's even-strength shots taken while player was on the ice, per 60 minutes"
+TmESSVA,"Team's even-strength shots that were saved, when player was on the ice"
+TmESSVF,Team's even-strength saves while the player was on the ice
+TmPPBA,Team's Power Play shots that were blocked while player was on the ice
+TmPPBF,Team's Power Play blocked shots while player was on the ice
+TmPPGA,Power Play goals scored against while player was on the ice
+TmPPGF,Power Play goals scored while player was on the ice
+TmPPMA,"Team's opponent's Power Play missed shots, while player was on the ice"
+TmPPMF,"Team's Power Play missed shots, while player was on the ice"
+TmPPSVA,"Team's Power Play shots that were saved, when player was on the ice"
+TmPPSVF,Team's Power Play saves while the player was on the ice
+TmSHBA,Team's Short-handed shots that were blocked while player was on the ice
+TmSHBF,Team's Short-handed blocked shots while player was on the ice
+TmSHGA,Short-handed goals scored against while player was on the ice
+TmSHGF,Short-handed goals scored while player was on the ice
+TmSHMA,"Team's opponent's Short-handed missed shots, while player was on the ice"
+TmSHMF,"Team's Short-handed missed shots, while player was on the ice"
+TmSHSVA,"Team's Short-handed shots that were saved, when player was on the ice"
+TmSHSVF,Team's Short-handed saves while the player was on the ice
+TOI,Total time on ice (in minutes)
+TOI/G,Time on Ice per game
+TOI/Sh,Time on ice per shift
+Wrist,Number of wrist shots taken
+Wt,"Weight, Brian Burke's favourite stat"

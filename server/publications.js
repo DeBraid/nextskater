@@ -10,9 +10,9 @@ All publications-related code.
 
 
 
-// Meteor.publish('main1314', function() {
-//   return Main1314.find({}, {sort: {PTS: -1}, limit: 10});
-// });
+Meteor.publish('main1314', function() {
+  return Main1314.find({}, {sort: {PTS: -1}, limit: 10});
+});
 
 Meteor.publish('deployment', function() {
   return Main1314.find({}, {sort: {TOI: -1}, limit: 10});
