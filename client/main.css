@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html,body {
+  height:100%;
+  background-color:#00458F;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size:80px;
+  color:#DDCCEE;
+}
+
+.lead {
+  color:#DDCCEE;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#00458F;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
+
+table {
+  background-color: #FFF !important;
+}

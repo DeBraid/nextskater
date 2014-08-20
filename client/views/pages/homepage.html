@@ -1,7 +1,7 @@
 <template name="homepage">
   <div class="container">
      <div class="row">
-       {{> greeting}}
+       {{> landing}}
      </div>
   </div>
 </template>
@@ -21,4 +21,57 @@
 
     </div>
   </div>
+</template>
+
+<template name="landing">
+  <div class="container-full">
+
+        <div class="row">
+         
+          <div class="col-lg-12 text-center v-center">
+            
+            <h1>Welcome to Next Skater</h1>
+            <p class="lead">A new site -- under major development -- dedicated to NHL analytics.</p>
+          
+          
+          </div>
+
+          <div class="row">
+           <div class="col-lg-12 text-center v-center">
+             <h3><a class="btn btn-warning btn-large" href="{{pathFor 'contact'}}"><i class="fa fa-bolt"></i>  Contact Me</a></h3> 
+           </div>
+          </div>
+          
+        </div> <!-- /row -->
+      <br><br>
+
+  </div> <!-- /container full -->
+
+  <div class="container">
+    
+      <hr>
+    
+      <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>We Need More NHL Stats</h3></div>
+              <div class="panel-body">Visit the two examples to see the basic table interface.
+              <ul>
+                <li><a href="{{pathFor 'stats'}}">General</a></li>
+                <li><a href="{{pathFor 'fullblast'}}">All Even Strength</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Props.</h3></div>
+              <div class="panel-body">Props to Robb Vollman, Extra Skater, Tyler Dellow, Vic Ferrari and many many others who've made this possible.
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
 </template>
