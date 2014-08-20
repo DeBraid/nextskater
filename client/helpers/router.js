@@ -46,7 +46,6 @@ Router.map(function() {
   this.route('stats', {
     path: '/stats',
     waitOn: function () {
-      GAnalytics.pageview('/stats');
       return Meteor.subscribe('main1314');
     },
     data: function () {
@@ -60,7 +59,7 @@ Router.map(function() {
     path: '/full',
     template: 'fullblast',
     waitOn: function () {
-      GAnalytics.pageview('/fullblast');
+  
       return Meteor.subscribe('mainES1314');
     },
     data: function () {
