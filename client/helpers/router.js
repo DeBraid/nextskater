@@ -87,6 +87,7 @@ Router.map(function() {
   this.route('leaderboard');
   this.route('leaderboard');
   this.route('glossary');
+  this.route('generic');
   this.route('teams');
 
   this.route('login');
