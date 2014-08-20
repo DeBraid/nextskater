@@ -9,5 +9,5 @@ accounts-base
 accounts-password
 accounts-ui
 reactive-table
-bootstrap3-less
 bootstrap-3
+font-awesome

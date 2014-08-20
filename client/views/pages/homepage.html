@@ -1,3 +1,14 @@
 <template name="homepage">
-  <h2>Welcome to the homepage!</h2>
+  <div class="container">
+     <div class="row">
+       {{> greeting}}
+     </div>
+  </div>
+</template>
+
+<template name="greeting">
+  <h2>Welcome to Next Skater</h2>
+  <p>Mission: build the best resource for Advanced Stats, focus on Hockey to replace the void left by those who've joined the NHL.</p>
+  <p>Props to Robb Vollman, Extra Skater, Tyler Dellow, Vic Ferrari and many many others who've made this possible.</p>
+  <h4><a href="{{pathFor 'contact'}}">Contact Me</a></h4>
 </template>
