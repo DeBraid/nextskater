@@ -9,6 +9,10 @@ Meteor.publish('homeroad1314', function() {
   return Homeroad1314.find({}, {sort: {"rTOI/G": -1}, limit: 10});
 });
 
+Meteor.publish('ESglossary', function() {
+  return ESglossary.find();
+});
+
 Meteor.publish('legend', function() {
   return Legend.find();
 });

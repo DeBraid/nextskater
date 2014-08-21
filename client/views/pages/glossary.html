@@ -1,5 +1,19 @@
 <template name="glossary">
   <div class="container">
+    <div class="row">
+      {{#each ESglossary }}
+        <section>
+          <h2>{{ abv }}</h2>
+          <p>{{ desc }}</p>
+        </section>
+
+      {{/each }}
+    </div>
+  </div>
+
+
+
+  <div class="container">
       <div class="row">
       <h1>Coming Soon</h1>
         <p>Detailed Glossary</p>

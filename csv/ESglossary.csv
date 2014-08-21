@@ -1,0 +1,157 @@
+abv,desc
+CA,Corsi against
+CD,Corsi differential: corsi for - corsi against
+CF,Corsi for
+CF%,Corsi for percentage
+CF% rel,Corsi for percentage relative to team's CF% with player not on ice
+FA,Fenwick against
+FD,Fenwick differential: fenwick for - fenwick against
+FF,Fenwick for
+FF%,Fenwick for percentage
+FF% rel,Fenwick for percentage relative to team's FF% with player not on ice
+GA,Goals against
+GD,Goals differential: goals for - goals against
+GF,Goals for
+GF%,Goals for percentage
+GF% rel,Goals for percentage relative to team's GF% with player not on ice
+PDO,Shooting percentage + save percentage
+PDO rel,PDO (Sh% + Sv%) relative to team's PDO with player not on ice
+S-A,Score-adjusted fenwick for percentage: FF% relative to league average at different score situations
+SA,Shots against
+SD,Shots on goal differential: shots for - shots against
+SF,Shots for
+SF%,Shots for percentage
+SF% rel,Shots for percentage relative to team's SF% with player not on ice
+Sh%,Shooting percentage
+Sh% rel,Shooting percentage relative to team's Sh% with player not on ice
+Sv%,Save percentage
+Sv% rel,Save percentage relative to team's Sv% with player not on ice
+TMSh%,On-ice teammates' shooting percentage
+TOI,Time on ice, minutes
+A,Assists
+A1,Primary (first) assists
+A2,Secondary assists
+BS,Blocked shots for
+CF,Corsi for: shots on goal + missed shots + blocked shots
+FF,Fenwick for: shots on goal + missed shots
+FO%,Faceoff win percentage
+FOL,Faceoff losses
+FOW,Faceoff wins
+G,Goals
+GP,Games played
+Gv,Giveaways
+HitA,Hits against
+HitD,Hit differential: hits for - hits against
+HitF,Hits for
+MS,Missed shots
+P,Points
+P1,Primary points: goals + primary assists
+PSR,Pass/shot ratio: setup passes / corsi for. Higher number = higher pass tendency.
+PenD,Penalty differential: penalties drawn - penalties taken
+PenDr,Penalties drawn
+PenT,Penalties taken
+S,Shots on goal
+SP,Setup passes: estimate of passes that directly result in a shot attempt
+ShB,Shots against blocked
+TOI/60,Time on ice, minutes, per 60 minutes of team play
+Tk,Takeaways
+CA,Corsi against
+CD,Corsi differential: corsi for - corsi against
+CF,Corsi for
+CF%,Corsi for percentage
+CF% rel,Corsi for percentage relative to team's CF% with player not on ice
+FA,Fenwick against
+FD,Fenwick differential: fenwick for - fenwick against
+FF,Fenwick for
+FF%,Fenwick for percentage
+FF% rel,Fenwick for percentage relative to team's FF% with player not on ice
+GA,Goals against
+GD,Goals differential: goals for - goals against
+GF,Goals for
+GF%,Goals for percentage
+GF% rel,Goals for percentage relative to team's GF% with player not on ice
+PDO,Shooting percentage + save percentage
+PDO rel,PDO (Sh% + Sv%) relative to team's PDO with player not on ice
+S-A,Score-adjusted fenwick for percentage: FF% relative to league average at different score situations
+SA,Shots against
+SD,Shots on goal differential: shots for - shots against
+SF,Shots for
+SF%,Shots for percentage
+SF% rel,Shots for percentage relative to team's SF% with player not on ice
+Sh%,Shooting percentage
+Sh% rel,Shooting percentage relative to team's Sh% with player not on ice
+Sv%,Save percentage
+Sv% rel,Save percentage relative to team's Sv% with player not on ice
+TMSh%,On-ice teammates' shooting percentage
+TOI,Time on ice, minutes
+AShr,Assist share: percentage of on-ice teammates' goals assisted by player
+CShr,Corsi share: percentage of on-ice corsi (S + MS + BS) player took
+FShr,Fenwick share: percentage of on-ice fenwick (S + MS) player took
+GShr,Goal share: percentage of on-ice goals for scored by player
+IceDr,Icings drawn: on-ice icings by opposing team
+IceDr%,Icing drawn percentage
+IceT,Icings taken: on-ice icings by player's team
+PShr,Point share: percentage of on-ice goals player had a point on
+SADist,Average distance of on-ice shot attempts (S + MS) against
+SFDist,Average distance of on-ice shot attempts (S + MS) for
+SShr,Shot share: percentage of on-ice shots player took
+DZS%,Defensive zone start percentage: percentage of player's zone starts coming in DZ
+DZShr,Defensive zone start share: percentage of team's DZ starts player was on ice for
+DZSt,Defensive zone starts
+EVTOI,Even strength time on ice, minutes
+EVTOI%,Percentage of team's even strength ice time that player is on ice for
+NZS%,Neutral zone start percentage: percentage of player's zone starts coming in NZ
+NZShr,Neutral zone start share: percentage of team's NZ starts player was on ice for
+NZSt,Neutral zone starts
+OZS%,Offensive zone start percentage: percentage of player's zone starts coming in OZ
+OZShr,Offensive zone start share: percentage of team's OZ starts player was on ice for
+OZSt,Offensive zone starts
+PPTOI,Power play time on ice, minutes
+PPTOI%,Percentage of team's power play ice time that player is on ice for
+SHTOI,Shorthanded time on ice, minutes
+SHTOI%,Percentage of team's shorthanded ice time that player is on ice for
+TOI,Time on ice, minutes
+TOI%,Percentage of team's total ice time that player is on ice for
+ZS,Zone starts: faceoffs on ice for
+ZS%,Zone start percentage: OZ starts / (OZ starts + DZ starts)
+ZS% rel,ZS% relative to team's ZS% with player not on ice
+QoC TOI%,Quality of competition, measured by TOI%
+QoC TOI% D,Quality of competition of defencemen, measured by TOI%
+QoC TOI% D rel,Quality of competition of defencemen relative to team's QoC% D with player not on ice
+QoC TOI% F,Quality of competition of forwards, measured by TOI%
+QoC TOI% F rel,Quality of competition of forwards relative to team's QoC% F with player not on ice
+QoC TOI% rel,Quality of competition relative to team's QoC% with player not on ice
+Def 1,#1 defenceman by ice time with player
+Def 2,#2 defenceman by ice time with player
+Fwd 1,#1 forward by ice time with player
+Fwd 2,#2 forward by ice time with player
+Fwd 3,#3 forward by ice time with player
+QoT TOI%,Quality of teammates, measured by TOI%
+QoT TOI% D,Quality of teammates of defencemen, measured by TOI%
+QoT TOI% D rel,Quality of teammates of defencemen relative to team's QoT% D with player not on ice
+QoT TOI% F,Quality of teammates of forwards, measured by TOI%
+QoT TOI% F rel,Quality of teammates of forwards relative to team's QoT% F with player not on ice
+QoT TOI% rel,Quality of teammates relative to team's QoT% with player not on ice
+TOI%,Percentage of player's ice time that teammate was on the ice for
+Blk%,Block percentage: percentage of shots that are blocked
+CSh%,Corsi shooting percentage: Sh% including missed and blocked shots
+FSh%,Fenwick shooting percentage: Sh% including missed shots
+Miss%,Miss percentage: percentage of shots that miss the net
+ON%,On net percentage: percentage of shots that hit the net
+SDist,Average shot distance
+Sh%,Shooting percentage
+SlpG,Slap shot goals
+SlpS,Slap shots
+SlpSh%,Shooting percentage on slap shots
+SnpG,Snap shot goals
+SnpS,Snap shots
+SnpSh%,Shooting percentage on snap shots
+WrtG,Wrist shot goals
+WrtS,Wrist shots
+WrtSh%,Shooting percentage on wrist shots
+EVeTOI%,Estimated percentage of team's even strength ice time that player is on ice for
+PPeTOI%,Estimated percentage of team's power play ice time that player is on ice for
+QoC eTOI%,Quality of competition, measured by estimated TOI%
+QoT eTOI%,Quality of teammates, measured by estimated TOI%
+SHeTOI%,Estimated percentage of team's shorthanded ice time that player is on ice for
+eTOI,Estimated time on ice

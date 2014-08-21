@@ -152,8 +152,8 @@ Router.map(function() {
       }
     }
   });
-
-   this.route('specialteams', {
+  
+  this.route('specialteams', {
     path: '/specialteams',
     template: 'specialteams',
     waitOn: function () {
@@ -163,6 +163,20 @@ Router.map(function() {
     data: function () {
       return {
         specialteams1314: Specialteams1314.find()
+      }
+    }
+  });
+
+  this.route('glossary', {
+    path: '/glossary',
+    template: 'glossary',
+    waitOn: function () {
+  
+      return Meteor.subscribe('ESglossary');
+    },
+    data: function () {
+      return {
+        ESglossary: ESglossary.find()
       }
     }
   });
@@ -184,8 +198,6 @@ Router.map(function() {
   this.route('contact');
   this.route('leaderboard');
   this.route('dashboard');
-  this.route('glossary');
-
   this.route('teams');
 
   this.route('login');
