@@ -125,7 +125,7 @@ Router.map(function() {
     }
   });
 
-   this.route('homeroad', {
+  this.route('homeroad', {
     path: '/homeroad',
     template: 'homeroad',
     waitOn: function () {
@@ -135,6 +135,34 @@ Router.map(function() {
     data: function () {
       return {
         homeroad1314: Homeroad1314.find()
+      }
+    }
+  });
+
+  this.route('legend', {
+    path: '/legend',
+    template: 'legend',
+    waitOn: function () {
+  
+      return Meteor.subscribe('legend');
+    },
+    data: function () {
+      return {
+        legend: Legend.find()
+      }
+    }
+  });
+
+   this.route('specialteams', {
+    path: '/specialteams',
+    template: 'specialteams',
+    waitOn: function () {
+  
+      return Meteor.subscribe('specialteams1314');
+    },
+    data: function () {
+      return {
+        specialteams1314: Specialteams1314.find()
       }
     }
   });

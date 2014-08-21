@@ -9,6 +9,14 @@ Meteor.publish('homeroad1314', function() {
   return Homeroad1314.find({}, {sort: {"rTOI/G": -1}, limit: 10});
 });
 
+Meteor.publish('legend', function() {
+  return Legend.find();
+});
+
+Meteor.publish('specialteams1314', function() {
+  return Specialteams1314.find({}, {sort: {"SHBlk": -1}, limit: 10});
+});
+
 Meteor.publish('main1314', function() {
   return Main1314.find({}, {sort: {PTS: -1}, limit: 10});
 });
