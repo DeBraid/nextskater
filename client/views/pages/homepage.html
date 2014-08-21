@@ -20,7 +20,7 @@
 
           <div class="row">
            <div class="col-lg-12 text-center v-center">
-             <h3><a class="btn btn-warning btn-large" href="{{pathFor 'contact'}}"><i class="fa fa-bolt"></i>  Contact Me</a></h3> 
+             <h3><a class="btn btn-success btn-large" href="{{pathFor 'contact'}}">Contact Me</a></h3> 
            </div>
           </div>
           
@@ -28,15 +28,18 @@
 
   </div> <!-- /container full -->
 
+  {{> homepageInfo}}
+</template>
+
+<template name="homepageInfo">
+  <hr>
   <div class="container">
-    
-      <hr>
     
       <div class="row">
           <div class="col-md-6">
             <div class="panel panel-default">
-              <div class="panel-heading"><h3>More NHL Stats</h3></div>
-              <div class="panel-body">Visit the two examples below to see the firehose options and table interface.  
+              <div class="panel-heading"><h3>Work In Progress</h3></div>
+              <div class="panel-body">Visit the examples in Nav Bar or below to see the firehose options and table interface.  
               <p>Dashboard will include: Standard, Possession, On-Ice Events, Deployment, QoC, QoT, Shooting and Goalies.</p>
               <ul>
                 <li><a href="{{pathFor 'stats'}}">General</a></li>
@@ -47,7 +50,7 @@
           </div>
           <div class="col-md-6">
             <div class="panel panel-default">
-              <div class="panel-heading"><h3>Props.</h3></div>
+              <div class="panel-heading"><h3>Thanks</h3></div>
               <div class="panel-body"><p>Props to Rob Vollman, Extra Skater (Darryl Metcalf), Tyler Dellow, Vic Ferrari and many many others who've made this possible. </p>
               <p>See roadmap for goals on how to best seperate these into managable chunks (HT Extra Skater)</p>
               </div>
@@ -55,6 +58,5 @@
           </div>
       </div>
   </div>
-
-
 </template>
+
